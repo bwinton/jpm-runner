@@ -1,0 +1,18 @@
+{
+  "name": "jpm-runner",
+  "main": "./lib/jpm-runner",
+  "version": "0.1.0",
+  "description": "An atom plugin to run jpm for Firefox add-ons.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "jpm:run"
+  },
+  "repository": "https://github.com/bwinton/jpm-runner",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jpm": "^1.0.0"
+  }
+}
